@@ -1,0 +1,167 @@
+
+> caracasyallinson@0.0.1 check
+> svelte-kit sync && svelte-check --tsconfig ./tsconfig.json
+
+Loading svelte-check in workspace: c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson
+Getting Svelte diagnostics...
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\events\+page.svelte[39m:158:13
+[31mError[39m: Type 'string | null' is not assignable to type 'string'.
+  Type 'null' is not assignable to type 'string'. (ts)
+[36m            }
+            [35mfinalImageUrl[36m = url as string | null;
+        }[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\raffles\+page.svelte[39m:184:13
+[31mError[39m: Type 'string | null' is not assignable to type 'string'.
+  Type 'null' is not assignable to type 'string'. (ts)
+[36m            }
+            [35mfinalImageUrl[36m = url as string | null;
+        }[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\roles\+page.svelte[39m:464:29
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                        <div>
+                            [35m<label
+                                class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                                >Nombre del Rol (ID)</label
+                            >[36m
+                            <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\roles\+page.svelte[39m:479:29
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                        <div>
+                            [35m<label
+                                class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                                >Descripci├│n</label
+                            >[36m
+                            <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:537:29
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                        <div>
+                            [35m<label
+                                class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                                >Nombre</label
+                            >[36m
+                            <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:548:29
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                        <div>
+                            [35m<label
+                                class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                                >Apellido</label
+                            >[36m
+                            <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:561:25
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                    <div>
+                        [35m<label
+                            class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                            >Tel├®fono</label
+                        >[36m
+                        <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:575:25
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                    >
+                        [35m<label
+                            class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                            Forzar Cambio de Clave
+                        </label>[36m
+                        <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:622:25
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                    >
+                        [35m<label
+                            class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                            Nivel de Privilegios (Rol)
+                        </label>[36m
+                        <select[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:642:25
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                    <div>
+                        [35m<label
+                            class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                        >
+                            Estado de la Cuenta
+                        </label>[36m
+                        <select[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:736:29
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                        <div>
+                            [35m<label
+                                class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                                >Nombre</label
+                            >[36m
+                            <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:747:29
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                        <div>
+                            [35m<label
+                                class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                                >Apellido</label
+                            >[36m
+                            <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:760:25
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                    <div>
+                        [35m<label
+                            class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                            >Tel├®fono</label
+                        >[36m
+                        <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:774:25
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                    >
+                        [35m<label
+                            class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                            >Correo Electr├│nico *</label
+                        >[36m
+                        <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:786:25
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                    <div>
+                        [35m<label
+                            class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                            >Contrase├▒a *</label
+                        >[36m
+                        <input[39m
+
+c:\Users\SISTEMAS-02\.gemini\antigravity\scratch\caracas-allinson\[32msrc\routes\admin\users\+page.svelte[39m:800:25
+[33mWarn[39m: A form label must be associated with a control
+https://svelte.dev/e/a11y_label_has_associated_control (svelte)
+[36m                    >
+                        [35m<label
+                            class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1"
+                            >Nivel de Privilegios (Rol)</label
+                        >[36m
+                        <select[39m
+
+====================================
+[31msvelte-check found 2 errors and 14 warnings in 4 files
+[39m
